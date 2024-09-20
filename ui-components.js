@@ -114,7 +114,7 @@ class UIComponent {
     this.outlineColour = [50, 50, 50];
     this.emphasisColour = [255, 255, 0];
     this.emphasised = false;
-    this.font = uiinterface.font;
+    this.font = font;
     this.text = shownText;
     this.textSize = shownTextSize;
     this.bevel = bevel;

@@ -1,2 +1,3 @@
 import * as UI from "./ui-components.js";
-window["UI"] = UI
+console.log("UI Ready")
+if(window.onUIReady) window.onUIReady(UI)

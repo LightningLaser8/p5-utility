@@ -1,8 +1,9 @@
 # p5-utility
-Helpful stuff for working with p5.js
+Helpful stuff for working with p5.js.
 ## UIComponents: `UI`
 Creates a user interface with buttons, sliders and selectors, without DOM manipulation (outside of p5's default stuff)  
-Has the following properties: `createPropertySelector()`, `createUIImageComponent()`,  `createSliderComponent()`, `createUIComponent()`, `evaluateCondition()`, `setCondition()`, `setState()`, `font`, `bg`, `tick`, `uiFrame()`, `transform`
+Has the following properties: `createPropertySelector()`, `createUIImageComponent()`,  `createSliderComponent()`, `createUIComponent()`, `evaluateCondition()`, `setCondition()`, `setState()`, `font`, `bg`, `tick`, `uiFrame()`, `transform`.
+Create a function called `onUIReady`, and the `UI` object will be passed in as soon as it loads.
 ### createUIComponent
 Creates a new UI component.  
 The background will either be an image (set by `bg`) or a colour, if `setBackgroundColour` is used.
